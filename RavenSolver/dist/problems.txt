@@ -1,0 +1,85 @@
+
+problem( generalProblem,
+	matrix(3, [
+		diagram([
+			figure([[name,circle], [position,50:50]]),
+			figure([[name,square], [position,50:50]]),
+			figure([[name,vline], [position,50:50]]),
+			figure([[name,vline], [position,50:50], [rotate,90]])
+		]),
+		diagram([
+			figure([[name,square], [position,50:50], [rotate,45]]),
+			figure([[name,vline], [position,50:50], [rotate,45]]),
+			figure([[name,vline], [position,50:50], [rotate,135]]),
+			figure([[name,circle], [position,50:50], [scale,0.151:0.151]]),
+			figure([[name,circleFill], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,vline], [position,50:50]]),
+			figure([[name,vline], [position,50:50], [rotate,90]])
+		]),
+		diagram([
+			figure([[name,square], [position,50:50]])
+		]),
+		
+		diagram([
+			figure([[name,hexagon], [position,50:50]]),
+			figure([[name,pentagon], [position,50:50]]),
+			figure([[name,vline], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,pentagon], [position,50:50], [rotate,45]]),
+			figure([[name,vline], [position,50:50], [rotate,45]]),
+			figure([[name,hexagon], [position,50:50], [scale,0.151:0.151], [rotate,45]]),
+			figure([[name,hexagonFill], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,vline], [position,50:50]])
+		]),
+		diagram([null]),
+		
+		diagram([
+			figure([[name,square], [position,50:50], [scale,1.352:1.352]]),
+			figure([[name,triangle], [position,50:50]]),
+			figure([[name,vline], [position,50:50], [rotate,90]])
+		]),
+		diagram([
+			figure([[name,triangle], [position,50:50], [rotate,45]]),
+			figure([[name,vline], [position,50:50], [rotate,135]]),
+			figure([[name,square], [position,50:50], [scale,0.204:0.204], [rotate,45]]),
+			figure([[name,squareFill], [position,50:50]])
+		]),
+		diagram([null]),
+		diagram([
+			figure([[name,triangle], [position,50:50]])
+		])
+	]),
+	answers([
+		diagram([
+			figure([[name,circle], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,triangle], [position,50:50], [rotate,45]])
+		]),
+		diagram([
+			figure([[name,square], [position,50:50], [scale,0.204:0.204], [rotate,45]])
+		]),
+		diagram([
+			figure([[name,vline], [position,50:50], [rotate,90]])
+		]),
+		
+		diagram([
+			figure([[name,square], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,pentagon], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,hexagon], [position,50:50]])
+		]),
+		diagram([
+			figure([[name,hexagon], [position,50:50], [scale,0.151:0.151], [rotate,45]])
+		])
+	]),
+	solution([6,4])
+).
